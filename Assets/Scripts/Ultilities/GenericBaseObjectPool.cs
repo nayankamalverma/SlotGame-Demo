@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Utilities
 {
-    public class GenericObjectPool<T>
+    public abstract class GenericObjectPool<T>
     {
         public List<PooledItem<T>> pooledItems = new List<PooledItem<T>>();
 
